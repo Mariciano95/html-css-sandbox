@@ -1,0 +1,12 @@
+div {
+    width: 400px;
+    height: 200px;
+    border: 40px dashed red;
+    margin: 20px auto;
+    /*margin: 20px auto 20px auto;*/
+    /*margin: 20px;*/
+}
+
+div:nth-child(2) {
+    box-sizing: border-box;
+}
