@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-image: url(../000_img/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 10px groove orangered;
+    border-radius: 100%;
+}
+
+.one {
+    border: 10px dashed orangered;
+}
+
+.two {
+    border: 10px dotted orangered;
+}
+
+.three {
+    border: 10px double orangered;
+}
