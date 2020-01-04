@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap');
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#light {
+    font-weight: lighter;
+}
+
+#normal {
+    font-weight: normal;
+}
+
+#bold {
+    font-weight: bold;;
+}
