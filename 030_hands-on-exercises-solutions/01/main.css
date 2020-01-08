@@ -1,0 +1,29 @@
+body {
+    margin: 10px;
+    border: 1px dashed brown;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 30%;
+    margin: 0.2rem;
+}
+
+div:nth-child(4n-3) {
+    background-color: red;
+}
+div:nth-child(4n-2) {
+    background-color: yellow;
+}
+
+div:nth-child(4n-1) {
+    background-color: royalblue;
+}
+
+div:nth-child(4n) {
+    background-color: teal;
+}
