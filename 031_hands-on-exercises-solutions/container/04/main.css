@@ -1,0 +1,15 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid royalblue;
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.container > div {
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    background-color: #0af;
+    border: 1px solid #aaa;
+}

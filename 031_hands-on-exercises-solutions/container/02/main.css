@@ -1,0 +1,13 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid royalblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div {
+    width: 100px;
+    height: 100px;
+    background-color: #0af;
+}
