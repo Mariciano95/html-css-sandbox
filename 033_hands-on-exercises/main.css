@@ -1,0 +1,42 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid salmon;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.i01, .i02, .i03, .i04, .i05, .i06, .i07 {
+    min-height: 150px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.i01 {
+    background-image: url(http://placeimg.com/1000/1000/any);
+}
+.i02 {
+    background-image: url(http://placeimg.com/1000/1000/any);
+}
+
+.i03 {
+    background-image: url(http://placeimg.com/1000/1000/any);
+}
+
+.i04 {
+    background-image: url(http://placeimg.com/1000/1000/any);
+}
+
+.i05 {
+    background-image: url(http://placeimg.com/1000/1000/any);
+}
+
+.i06 {
+    background-image: url(http://placeimg.com/1000/1000/any);
+}
+
+.i07 {
+    background-image: url(http://placeimg.com/1000/1000/any);
+}
