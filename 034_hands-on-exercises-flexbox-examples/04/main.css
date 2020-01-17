@@ -1,0 +1,38 @@
+body, header, article, p, aside, footer  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, article, aside, footer {
+    width: 100%;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: orangered;
+}
+
+article {
+    background-color: dodgerblue;
+}
+
+aside:first-of-type {
+    background-color: yellow;
+}
+
+aside:last-of-type {
+    background-color: hotpink;
+}
+
+footer {
+    background-color: yellowgreen;
+}

@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+li {
+    width: 100%;
+}
+
+nav {
+    width: 30%;
+}
+
+main {
+    width: 70%;
+}

@@ -1,0 +1,16 @@
+body, ul, li {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+li {
+    width: 100%;
+    padding: 20px;
+}

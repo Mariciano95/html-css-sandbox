@@ -1,0 +1,27 @@
+body, nav, ul, li, main, section {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem 3rem;
+}
+
+ul, main {
+    border: 2px solid #f00;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li {
+    padding: 1rem;
+    list-style-type: none;
+}
+section {
+    padding: 1rem;
+}

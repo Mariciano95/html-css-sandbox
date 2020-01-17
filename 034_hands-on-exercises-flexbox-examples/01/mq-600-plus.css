@@ -1,0 +1,7 @@
+ul {
+    justify-content: flex-end;
+}
+li {
+    width: 10%;
+    border: none;
+}
