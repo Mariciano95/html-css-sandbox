@@ -1,0 +1,9 @@
+footer {
+    background-color: orangered;
+    border: 2px solid red;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,19 @@
+body {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: orangered;
+    margin: 0 auto;
+}
+
+div:nth-child(2) {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
