@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 29.5%;
+    float: left;
+    border: 2px solid dodgerblue;
+    height: 100px;
+}
+
+article {
+    height: 100px;
+    width: 69.5%;
+    float: right;
+    border: 2px solid royalblue;
+}

@@ -1,0 +1,29 @@
+header {
+    height: 50px;
+    background-color: purple;
+}
+
+aside {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    width: 24%;
+    float: left;
+}
+
+main {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rosybrown;
+    width: 74%;
+    float: right;
+}
+
+footer {
+    height: 50px;
+    background-color: dodgerblue;
+    clear: both;
+}
+

@@ -1,0 +1,9 @@
+div {
+    border: 2px solid red;
+    overflow: auto;
+}
+
+div > img {
+    float: left;
+    border: 2px solid dodgerblue;
+}
