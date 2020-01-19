@@ -23,8 +23,9 @@ _testmain.go
 *.test
 *.prof
 
-# WebStorm
-*.iml
+# VS Code
+*.vs
+*.vscode
 
 # Directory-based project format:
 .idea/
