@@ -1,0 +1,58 @@
+body, header, nav, ul, li, main, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/fog.jpg) no-repeat top center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    color: #094562;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.5rem;
+}
+
+section {
+    height:250px;
+    width: auto;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    opacity: 70%;
+}
+
+.box-1 {
+    background-color: #0944628e;
+}
+
+.box-2 {
+    background-color: #496812;
+}
+
+.box-3 {
+    background-color: #584420;
+}
+
+.box-4 {
+    background-color: #651456;
+}
+
