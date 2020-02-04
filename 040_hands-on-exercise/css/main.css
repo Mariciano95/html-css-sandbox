@@ -23,14 +23,36 @@ header > div, header > nav {
     align-items: center;
 }
 
-header > div {
-    justify-content: space-evenly;
-    padding-left: 10px;
-    padding-right: 10px;
+header div a {
+    display: flex;
+    align-items: center;
 }
 
-header h1 {
+header div a:hover {
+    color:rgb(100, 161, 158);
+}
+
+
+
+header > nav a:hover {
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+header a {
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+header ul, header li, header a {
+    height: 100%;
+}
+
+
+
+header div h1 {
     font-size: 1rem;
+    margin-right: 10px;
 }
 
 nav > ul {
@@ -40,9 +62,9 @@ nav > ul {
 }
 
 .idx-hdr-svg {
-    fill: white;
+    fill: currentColor;
     width: 30px;
-    height: 30px;
+    height: 100%;
 }
 
 .idx-hdr-svg:hover {
