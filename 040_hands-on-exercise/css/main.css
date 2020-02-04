@@ -16,10 +16,37 @@ header {
 }
 
 header > div, header > nav {
-    width: 200px;
+    width: 300px;
     height: 35px;
     margin: 0 1rem;
-    background-color: #f00;
+    display: flex;
+    align-items: center;
+}
+
+header > div {
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header h1 {
+    font-size: 1rem;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.idx-hdr-svg {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+.idx-hdr-svg:hover {
+    fill: rgb(100, 161, 158)
 }
 
 #idx-atf {
