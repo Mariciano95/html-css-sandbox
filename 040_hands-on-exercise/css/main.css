@@ -11,7 +11,7 @@ header {
     height: 2.8rem;
     background-color: rgba(30, 30, 30, .7);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -21,22 +21,15 @@ header > div, header > nav {
     margin: 0 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-header div a {
-    display: flex;
-    align-items: center;
+header > nav {
+    display: none;
 }
 
 header div a:hover {
     color:rgb(100, 161, 158);
-}
-
-
-
-header > nav a:hover {
-    background-color: dimgray;
-    border-radius: 5px;
 }
 
 header a {
@@ -44,31 +37,21 @@ header a {
     padding: 0 .5rem;
 }
 
+header div a {
+    display: flex;
+    align-items: center;
+}
+
 header ul, header li, header a {
     height: 100%;
 }
 
-
-
 header div h1 {
     font-size: 1rem;
-    margin-right: 10px;
-}
-
-nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
 }
 
 .idx-hdr-svg {
-    fill: currentColor;
-    width: 30px;
-    height: 100%;
-}
-
-.idx-hdr-svg:hover {
-    fill: rgb(100, 161, 158)
+    display: none;
 }
 
 #idx-atf {
