@@ -69,7 +69,11 @@ header div h1 {
 }
 
 #idx-atf > div {
-    height: 50vh;
+    height: 60vh;
+}
+
+#idx-atf h1 {
+    font-size: 2.3rem;
 }
 
 .idx-center-spacebetween {

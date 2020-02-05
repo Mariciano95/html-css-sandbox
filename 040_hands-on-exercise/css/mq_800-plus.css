@@ -22,6 +22,14 @@ header div a {
     align-items: center;
 }
 
+#idx-atf h1 {
+    font-size: initial;
+}
+
+#idx-atf div {
+    height: 70vh;
+}
+
 header div h1 {
     margin-right: 10px;
 }
