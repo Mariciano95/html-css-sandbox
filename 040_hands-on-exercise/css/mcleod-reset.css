@@ -47,3 +47,8 @@ table {
     /*borders are collapsed - adjacent table cells share borders */
     border-collapse: collapse;
 }
+
+svg {
+    height: 1.7em;
+    width: 1.7em;
+}

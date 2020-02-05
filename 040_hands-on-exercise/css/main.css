@@ -139,3 +139,40 @@ button:hover {
     background-color: whitesmoke;
     color: #111;
 }
+
+.idx-mobile-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.idx-mobile-menu > li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(136, 221, 255);
+    height: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+.idx-mobile-menu > li:last-child {
+    border: 0;
+}
+
+.idx-mobile-menu a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.idx-mobile-menu a:hover {
+    background-color: royalblue;
+}
+
+.idx-mob-svg {
+    display: initial;
+    fill: white;
+    margin-right: 10px;
+}

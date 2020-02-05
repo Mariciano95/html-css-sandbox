@@ -12,6 +12,11 @@ header > nav {
     display: flex;
 }
 
+header nav a {
+    display: flex;
+    align-items: center;
+}
+
 header div a {
     display: flex;
     align-items: center;
@@ -29,8 +34,6 @@ header > nav a:hover {
 .idx-hdr-svg {
     display: initial;
     fill: currentColor;
-    width: 30px;
-    height: 100%;
 }
 
 .idx-hdr-svg:hover {
@@ -43,4 +46,8 @@ header > nav a:hover {
 
 #idx-atf > div {
     height: 40vh;
+}
+
+.idx-mobile-menu {
+    display: none;
 }
