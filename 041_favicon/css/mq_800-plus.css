@@ -1,0 +1,61 @@
+header {
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+header > nav {
+    display: flex;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+}
+
+header div a {
+    display: flex;
+    align-items: center;
+}
+
+#idx-atf h1 {
+    font-size: 4rem;
+}
+
+#idx-atf div {
+    height: 70vh;
+}
+
+header div h1 {
+    margin-right: 10px;
+}
+
+header > nav a:hover {
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+.idx-hdr-svg {
+    display: initial;
+    fill: currentColor;
+}
+
+.idx-hdr-svg:hover {
+    fill: rgb(100, 161, 158)
+}
+
+#idx-atf {
+    background-image: url(../img/background-photo.jpg);
+}
+
+#idx-atf > div {
+    height: 40vh;
+}
+
+.idx-mobile-menu {
+    display: none;
+}
