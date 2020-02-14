@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+    color: #86969C;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#controls {
+    width: 95%;
+    border-top: 2px solid #86969C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12rem;
+}
+
+
+#ftr-spinner,
+#ftr-buttons {
+    display: flex;
+    align-items: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+}
+
+button {
+    font-size: inherit;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+span {
+    margin-right: 1rem;
+}
+
+#reset {
+    color: #4EBBE4;
+    background-color: white;
+}
+
+#save {
+    margin-left: 1rem;
+    color: white;
+    background-color: #4EBBE4;
+    border: 1px solid #16A2D7;
+}
+
+.icon {
+    height: 1em;
+    width: 1em;
+    fill: currentColor;
+}
+
+.icon-spinner {
+    animation-name: spinning;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinning {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
