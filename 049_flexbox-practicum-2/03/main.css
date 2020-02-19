@@ -9,3 +9,36 @@ html {
     color: #d7dbdd;
     font-size: 2vw;
 }
+
+.container-atf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 3rem;
+}
+
+.smiley {
+    fill: #d7dbdd;
+    height: 6em;
+    width: 6em;
+}
+
+.title {
+    margin-bottom: .2rem;
+}
+
+.welcome-message {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #4EBBE4;
+    border: 1px solid #16A2D7;
+    color: #fff;
+    font-size: .7rem;
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 5px;
+}
