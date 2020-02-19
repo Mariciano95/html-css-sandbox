@@ -30,7 +30,7 @@ html {
 }
 
 .feature:last-child {
-    border: 0;
+    border-bottom: transparent;
 }
 
 .feature p {
@@ -51,5 +51,3 @@ html {
 .icon-right {
     padding-left: 1em;
 }
-
-
