@@ -109,6 +109,8 @@ hr {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    border: 0;
+    border-top: 1px solid #484848;
 }
 
 main article {
@@ -166,13 +168,12 @@ th, td {
     color: inherit;
 }
 
-th {
-    background-color: silver;
+.bold {
     font-weight: bold;
 }
 
-tr > td:first-child {
-    font-weight: bold;
+th {
+    background-color: silver;
 }
 
 .accent-row {
