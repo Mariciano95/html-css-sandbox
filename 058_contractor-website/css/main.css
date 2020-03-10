@@ -99,27 +99,28 @@ header h1 {
     align-self: center;
 }
 
-main {
+main, section {
     width: 60%;
-    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
-    margin: 0;
-    width: 85%;
+    margin: 2.5rem auto;
+    width: 50vw;
     margin-left: auto;
     margin-right: auto;
     border: 0;
     border-top: 1px solid #484848;
 }
 
-main article {
+main article,
+section article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
 }
 
 article aside {
@@ -137,14 +138,14 @@ article aside ol {
 
 .article__title {
     font-size: 1.3rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Alice', sans-serif;
     text-decoration: underline;
     margin-bottom: 1rem;
 }
 
 .article__subtitle {
     font-size: 1.1rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Alice', sans-serif;
     margin-bottom: .7rem;
 }
 
@@ -155,9 +156,38 @@ article aside ol {
     margin-bottom: .7rem;
 }
 
+.list-of-dangers {
+    margin: initial;
+    width: initial;
+}
+
+.list-of-dangers__title {
+    font-size: 1.3rem;
+    font-family: 'Alice', sans-serif;
+    margin-bottom: .6rem;
+}
+
+.list-of-dangers ol {
+    color: #8e8e8e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list-of-dangers li {
+    margin-bottom: .6rem;
+    font-size: .9rem;
+    vertical-align: baseline;
+}
+
+.citation {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 0;
+}
+
 table {
     color: #484848;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 1.5rem;
 }
  
 th, td {
@@ -180,9 +210,43 @@ th {
     background-color: #d0d0d0;
 }
 
+.about-image {
+    height: 600px;
+    width: 100vw;
+    background: url(../images/us_left_web_30.jpg) center 30% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.about-image__title {
+    font-size: 4.5rem;
+    font-family: 'Alice', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
 
+.about-image__subtitle {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+}
 
+.book-headline {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f00;
+    margin-bottom: .7rem;
+}
+
+.phone-number {
+    font-size: 2rem;
+    text-align: center;
+    color: #f00;
+}
 
 
 
