@@ -1,3 +1,8 @@
+/*
+===============================
+General styles
+===============================
+*/
 html {
     font-size: 1vw;
 }
@@ -13,6 +18,21 @@ body {
     width: 60vw;
 }
 
+.book-check {
+    font-family: 'Raleway', sans-serif;
+    padding: .75rem;
+    font-size: .8rem;
+    color: #fff;
+    background-color: #f00;
+    margin-bottom: .5rem;
+    align-self: center;
+}
+
+/*
+===============================
+Header
+===============================
+*/
 header {
     /* arrange content */
     display: flex;
@@ -58,6 +78,12 @@ header h1 {
     font-weight: 400;
 }
 
+
+/*
+===============================
+Hero
+===============================
+*/
 .hero {
     width: 100vw;
     height: 70vh;
@@ -89,15 +115,11 @@ header h1 {
     text-align: center;
 }
 
-.book-check {
-    font-family: 'Raleway', sans-serif;
-    padding: .75rem;
-    font-size: .8rem;
-    color: #fff;
-    background-color: #f00;
-    margin-bottom: .5rem;
-    align-self: center;
-}
+/*
+===============================
+Main
+===============================
+*/
 
 main, section {
     width: 60%;
@@ -210,6 +232,12 @@ th {
     background-color: #d0d0d0;
 }
 
+
+/*
+===============================
+About
+===============================
+*/
 .about-image {
     height: 600px;
     width: 100vw;
@@ -249,7 +277,11 @@ th {
 }
 
 
-
+/*
+===============================
+Media queries
+===============================
+*/
 
 
 
