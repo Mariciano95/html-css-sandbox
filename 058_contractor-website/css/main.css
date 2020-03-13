@@ -18,6 +18,12 @@ body {
     width: 60vw;
 }
 
+
+h1 {
+    font-size: 2rem;
+    color: #484848;
+}
+
 .book-check {
     font-family: 'Raleway', sans-serif;
     padding: .75rem;
@@ -41,11 +47,6 @@ header {
     align-items: center;
     /* format*/
     margin-top: 1rem;
-}
-
-h1 {
-    font-size: 2rem;
-    color: #484848;
 }
 
 header nav {
@@ -122,7 +123,7 @@ Main
 */
 
 main, section {
-    width: 60%;
+    width: 60vw;
     margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
@@ -174,7 +175,7 @@ article aside ol {
 .article__paragraph {
     font-size: .85rem;
     color: #8e8e8e;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: .7rem;
 }
 
@@ -208,7 +209,7 @@ article aside ol {
 
 table {
     color: #484848;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 1.5rem;
 }
  
@@ -276,12 +277,192 @@ About
     color: #f00;
 }
 
+/*
+===============================
+Footer
+===============================
+*/
+footer {
+    text-align: center;
+}
 
 /*
 ===============================
 Media queries
 ===============================
 */
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    hr {
+        width: 70vw;
+    }
+
+    .book-check {
+        padding: .9rem;
+        font-size: 1.3rem;
+    }
+
+    main, section {
+        width: 80vw;
+    }
+    
+    header nav a {
+        height: 1.8rem;
+        font-size: 1.5rem;
+        width: fit-content;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .hero {
+        background-image: url(../images/fam_smaller_medium_web.jpg);
+    }
+
+    .hero__title {
+        font-size: 5rem;
+    }
+
+    .hero__subtitle {
+        font-size: 3rem;
+    }
+
+    .article__title {
+        font-size: 2.5rem;
+    }
+    
+    .article__subtitle {
+        font-size: 2.2rem;
+    }
+
+    .article__paragraph {
+        font-size: 18px;
+    }
+
+    .list-of-dangers__title {
+        font-size: 22px;
+    }
+    
+    .list-of-dangers ol {
+        color: #8e8e8e;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .list-of-dangers li {
+        margin-bottom: .6rem;
+        font-size: 16px;
+        vertical-align: baseline;
+    }
+    
+    
+    th, td {
+        font-size: 1.2rem;
+        line-height: 1.1;
+    }
+
+    .about-image__title {
+        font-size: 5rem;
+    }
+    
+    .about-image__subtitle {
+        font-size: 3rem;
+    }
+
+    .book-headline {
+        font-size: 4.5rem;
+        margin-bottom: 1.7rem;
+    }
+    
+    .phone-number {
+        font-size: 5rem;
+    }
+
+    footer {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .book-check {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        font-size: 2.9rem;
+    }
+
+    header h1 {
+        font-size: 40px;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .hero {
+        background-image: url(../images/fam_blur_under_600_web_medium.jpg);
+        height: 540px;
+    }
+
+    .hero__title {
+        font-size: 50px;   
+        margin-bottom: 5rem;         
+    }
+
+    .hero__subtitle {
+        font-size: 16px;
+    }
+    .hero__subtitle br {
+        display: none;
+    }
+
+    .article__title {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .article__subtitle {
+        font-size: 4.8rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .article__paragraph {
+        font-size: 14px;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+
+    th, td {
+        font-size: 3.2rem;
+    }
+
+    aside img {
+        display: none;
+    }
+
+    .about-image {
+        background-image: url(../images/us_16_9_smaller_web_30.jpg);
+    }
+
+    .about-image__title {
+        font-size: 12rem;
+        margin-bottom: 20px;
+    }
+    
+    .about-image__subtitle {
+        font-size: 5rem;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+} 
+
 
 
 
