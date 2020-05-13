@@ -1,0 +1,38 @@
+header {
+    justify-content: center;
+}
+
+#logo {
+    margin-top: 40px;
+    font-size: 8rem;
+}
+
+#login {
+    display: none;
+}
+
+.main-title {
+    font-size: 17rem;
+    word-wrap: break-word;
+}
+
+footer {
+    height: 40vh;
+    justify-content: space-evenly;
+}
+
+.slug {
+    font-size: 5.5rem;
+    padding: 4rem;
+    width: fit-content;
+}
+
+.cta-button {
+    font-size: 4rem;
+    padding: 2rem 4.25rem;
+}
+
+#highlights {
+    display: none;
+}
+

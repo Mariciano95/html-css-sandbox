@@ -1,0 +1,106 @@
+html {
+    font-size: 1vw;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+#atf {
+    height: 100vh;
+    /* arrange content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* format */
+    background-image: url("../images/g_s_03_five.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding: 1.7rem;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#login p {
+    margin-top: 10px;
+    font-size: .9rem
+}
+
+.btn-log {
+    margin-top: 7px;
+    display: inline-block;
+    padding: .5rem 1.25rem;;
+    text-align: center;
+    font-size: 1.4rem;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn-log:hover,
+.btn-log:focus {
+    background-color: #fff;
+    color: #999;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.main-title a:hover,
+.main-title a:focus {
+    color: #f00;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+    background-color: rgba(208, 210, 255, 0.1);
+}
+
+.slug {
+    font-family: 'Indie Flower';
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    padding: .5rem 1.2rem;
+    background-color: #f00;
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+    background-color: rgb(255, 115, 0);
+}
+
+#highlights  {
+    display: flex;
+    height: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+
+#highlights a:hover,
+#highlights a:focus {
+    color: rgb(187, 187, 187);
+}
