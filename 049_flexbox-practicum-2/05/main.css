@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+}
+
+.container-atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature-list {
+    list-style-type: none;
+    padding: 3rem;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightblue;
+}
+
+.feature:last-child {
+    border-bottom: transparent;
+}
+
+.feature p {
+    font-size: 2rem;
+    color: lightblue;
+}
+
+.icon {
+    height: 10em;
+    width: 10em;
+    fill: lightblue;
+}
+
+.icon-left {
+    padding-right: 1rem;
+}
+
+.icon-right {
+    padding-left: 1em;
+}

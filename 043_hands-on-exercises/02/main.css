@@ -1,0 +1,23 @@
+.hero {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    animation-name: ballon;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ballon {
+    0% { font-size: 20px; }
+    100% { font-size: 100px; }
+}
